@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ncv2k
 - 😎 I’m a good boy 
-- 🎵 I like play music
+- 🎵 I like to listen music
 - 🎓 I studying in Vietnam Academy of Cryptography Techniques
 - 📞 Phone: +84988710753
 - 📫 Mail: vn.ncvinh@gmail.com
