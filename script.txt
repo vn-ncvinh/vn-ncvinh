@@ -1,0 +1,24 @@
+select disk 3
+clean
+convert gpt
+create partition primary
+format fs=ntfs quick
+assign
+select disk 4
+clean
+convert gpt
+create partition primary
+format fs=ntfs quick
+assign
+select disk 1
+clean
+convert gpt
+create partition primary
+format fs=ntfs quick
+assign
+select disk 2
+clean
+convert gpt
+create partition primary
+format fs=ntfs quick
+assign
