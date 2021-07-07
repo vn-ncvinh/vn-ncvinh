@@ -1,0 +1,23 @@
+token: ""
+path:
+- F:\
+- G:\
+minerName:
+apiKey: 4f8b3c44-a949-4ab6-a474-c2663a541b24
+cachePath: ""
+deviceId: ""
+extraParams: {}
+log:
+  lv: info
+  path: ./log/
+  name: miner.log
+url:
+  info: ""
+  submit: ""
+  line: ""
+  ws: ""
+scanPath: true
+scanMinute: 120
+debug: ""
+language: en
+multithreadingLoad: false
