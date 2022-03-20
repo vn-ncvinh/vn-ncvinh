@@ -20,20 +20,3 @@ convert gpt
 create partition primary
 format fs=ntfs unit=64k Label="Save 3" quick
 assign
-
-
-select disk 4
-clean
-convert gpt
-create partition primary
-format fs=ntfs unit=64k Label="Save 4" quick
-assign
-
-
-select disk 5
-clean
-convert gpt
-create partition primary
-format fs=ntfs unit=64k Label="Save 5" quick
-assign
-
