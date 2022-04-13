@@ -1,0 +1,12 @@
+git clone https://github.com/anht3889/android_kernel_lge_sm8150_new -b aosp kernel/lge/sm8150
+git clone https://github.com/anht3889/android_device_lge_sm8150-common -b aosp device/lge/sm8150-common
+git clone https://github.com/anht3889/proprietary_vendor_lge -b aosp vendor/lge
+git clone https://github.com/anht3889/android_hardware_lge -b aosp hardware/lge
+git clone https://github.com/anht3889/android_device_lge_flashlmdd -b aosp device/lge/flashlmdd
+git clone https://github.com/anht3889/android_device_lge_common -b aosp device/lge/common
+git clone https://github.com/anht3889/android_device_lge_flash-common -b aosp device/lge/flash-common
+
+sed -i 's/aosp/awaken/g' device/lge/flashlmdd/aosp_flashlmdd.mk
+sed -i 's/aosp/awaken/g' device/lge/flashlmdd/AndroidProducts.mk
+mv device/lge/flashlmdd/aosp_flashlmdd.mk device/lge/flashlmdd/awaken_flashlmdd.mk
+mv device/lge/flashlmdd/aosp.dependencies device/lge/flashlmdd/awaken.dependencies
