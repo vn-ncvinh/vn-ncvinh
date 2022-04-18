@@ -5,3 +5,8 @@ git clone https://github.com/anht3889/android_hardware_lge -b aosp hardware/lge
 git clone https://github.com/anht3889/android_device_lge_flashlmdd -b aosp device/lge/flashlmdd
 git clone https://github.com/anht3889/android_device_lge_common -b aosp device/lge/common
 git clone https://github.com/anht3889/android_device_lge_flash-common -b aosp device/lge/flash-common
+
+sed -i 's/aosp/awaken/g' device/lge/flashlmdd/aosp_flashlmdd.mk
+sed -i 's/aosp/awaken/g' device/lge/flashlmdd/AndroidProducts.mk
+mv device/lge/flashlmdd/aosp_flashlmdd.mk device/lge/flashlmdd/awaken_flashlmdd.mk
+mv device/lge/flashlmdd/aosp.dependencies device/lge/flashlmdd/awaken.dependencies
