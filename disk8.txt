@@ -1,4 +1,4 @@
-select disk 1
+select disk 2
 clean
 convert gpt
 create partition primary
@@ -6,7 +6,7 @@ format fs=ntfs unit=64k Label="Save 1" quick
 assign
 
 
-select disk 2
+select disk 3
 clean
 convert gpt
 create partition primary
@@ -14,7 +14,7 @@ format fs=ntfs unit=64k Label="Save 2" quick
 assign
 
 
-select disk 3
+select disk 4
 clean
 convert gpt
 create partition primary
